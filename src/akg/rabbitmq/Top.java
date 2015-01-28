@@ -17,7 +17,7 @@ public class Top extends Activity{
 	//	requestWindowFeature(Window.FEATURE_NO_TITLE);
 
        Button button1 = (Button) findViewById(R.id.button1);
-       Button button2 = (Button) findViewById(R.id.button2);
+  //     Button button2 = (Button) findViewById(R.id.button2);
        button1.setOnClickListener(new View.OnClickListener() {
        @Override
     public void onClick(View v) {
@@ -26,12 +26,12 @@ public class Top extends Activity{
        }
        });
 
-       button2.setOnClickListener(new View.OnClickListener() {
-       @Override
-    public void onClick(View v) {
-            Intent j = new Intent (Top.this, TutorialActivity.class);
-            startActivity(j);
-       }
-       });
+ //      button2.setOnClickListener(new View.OnClickListener() {
+ //      @Override
+  //  public void onClick(View v) {
+  //          Intent j = new Intent (Top.this, TutorialActivity.class);
+  //          startActivity(j);
+  //     }
+   //   });
     }
 }

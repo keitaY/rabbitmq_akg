@@ -42,10 +42,10 @@ import android.content.Intent;
 
 public class MainActivity extends Activity {
 	private MessageConsumer mConsumer;
-	public int state = 1; /* 現在何番まで行っているかを保存する変数 */
+	public int state = 1;//モグラstate匹目（25で一周）
 	public long time, endTime, startTime;
 	private TextView mOutput, send, textState;
-	int people = 0, phaseOfGame = 0, point = 0, countInPhase = 0 ,subcount = 0,flag = 0,flag2 = 0,flag3 = 0, temp, num, mypoint, oppoint, res = 0, gotExcellent = 0;  /*接続人数、　モード、　得点*/
+	int people = 0, phaseOfGame = 0, point = 0, countInPhase = 0 ,subcount = 0,flag = 0,flag2 = 0,flag3 = 0, temp, num, mypoint, oppoint, res = 0, gotExcellent = 0;
     char Iam='Z';
     Timer timer = new Timer();
     final int INTERVAL_PERIOD = 200;
