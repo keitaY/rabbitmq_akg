@@ -86,7 +86,7 @@ public class TutorialActivity extends Activity {
 	    public void onClick(View v) {
 
 				Constants.EXCHANGE="logs0";
-				Constants.QUEUE="QUEUE0";
+				Constants.QUEUE="Queue0";
 				Iam = 'Z';
 				mConsumer.connectToRabbitMQ();
 				timer.cancel();
